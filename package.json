@@ -1,0 +1,23 @@
+{
+  "name": "rpaman-electron",
+  "version": "1.0.0",
+  "description": "RPA Project Manager - Track RPA projects, change requests and deployments in one place.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "author": "AshApp",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.2.0",
+    "electron": "^33.2.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true,
+    "electron@33.4.11": true
+  }
+}
